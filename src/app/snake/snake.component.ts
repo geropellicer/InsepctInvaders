@@ -15,11 +15,4 @@ export class SnakeComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  onKey(event: any) { // without type info
-    this.values += event.target.value + ' | ';
-  }
-
-  
-
 }
